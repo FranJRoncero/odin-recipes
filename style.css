@@ -1,3 +1,78 @@
+/* Css Style  */
+
+h1 {
+    text-align: center;
+    background-color: aqua;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-align: center;
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interm {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.refe {
+    text-align: center;
+    color: rgb(28, 112, 112);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+
 div {
-    
+    text-align: center;
+}
+
+.main-img {
+    border: black 2px solid;
+    width: 600px;
+    height: auto;
+}
+
+.milanesa-img, .pizza-img, .locro-img {
+    height: 400px;
+    width: auto;
+    border: black 2px solid;
+}
+
+
+
+.main-path {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(182, 182, 2);
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.recipe-list li {
+    color: white;
+    font-size: 20px;
+}
+
+ul.recipe-list {
+    background-color :aqua;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
 }
