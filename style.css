@@ -1,11 +1,18 @@
 /* Css Style  */
 
-h1 {
-    text-align: center;
+body {
     background-color: aqua;
+}
+
+h1 {
+    background-color: chocolate;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    margin: 10px 200px;
+    text-align: center;
+    border: black 1px solid;
 }
+
 
 h3 {
     text-align: center;
@@ -33,6 +40,7 @@ p {
     color: rgb(28, 112, 112);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200;
+    margin-top: 5px;
 }
 
 div {
@@ -57,22 +65,30 @@ div {
     font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(182, 182, 2);
+    color: rgb(232, 232, 67);
+    margin: 10px;
 }
+
 
 li {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 2px;
 }
 
 
 .recipe-list li {
+    background-color: rgb(255, 255, 255);
+    margin: 0 300px;
     color: white;
     font-size: 20px;
 }
 
 ul.recipe-list {
-    background-color :aqua;
+    list-style: none;
     text-align: center;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: ;
+}
+
+li a:visited {
+    color: rgb(226, 153, 122);
 }
